@@ -1,0 +1,11 @@
+{
+  "name": "Name",
+  "version": "0.0.0",
+  "description": "Description",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nightmare": "^2.10.0"
+  }
+}

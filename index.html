@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web App</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./public/css/w3.css">
+		<link rel="stylesheet" href="./public/css/main.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="w3-container">
+			<div class="w3-panel w3-leftbar w3-pale-blue w3-border-blue">
+				<div class="w3-margin-top">
+					<label>Your Name</label>
+					<input id="input" class="w3-input" type="text">
+					<button id="button" class="w3-button w3-black">Submit</button>
+				</div>
+				<p>Simple web application project for: <span id="output"></span></p>
+			</div>
+			<div class="w3-display-container">
+				<img class="w3-image w3-hover-opacity" src="./public/img/laptop-code.jpg" alt="Starting to code.">
+				<div class="w3-display-bottommiddle w3-container w3-text-white">Photo by Luca Bravo on Unsplash</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="./public/js/main.js"></script>
+		<script type="text/javascript">
+			
+			var button = document.querySelector('#button');
+			var input = document.querySelector('#input');
+			button.addEventListener('click', function(e) {
+				getName(input.value);
+			});
+
+		</script>
+	</body>
+</html>
