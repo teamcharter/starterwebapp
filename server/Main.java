@@ -27,8 +27,8 @@ import java.util.concurrent.Executors.*;
 /*
  * INSTRUCTIONS TO START SERVER ON CLOUD9
  * Replace text in {} with appropriate value
- * >> javac -cp ".:lib/*" Server.java
- * >> java -cp ".:lib/*" Server {workspacename}-{username}
+ * >> javac -cp ".:lib/*" server/Main.java
+ * >> java -cp ".:lib/*" server.Main {workspacename}-{username}
  * Open: http://{workspacename}-{username}.c9users.io/{route}
  */
 
